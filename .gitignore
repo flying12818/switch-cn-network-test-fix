@@ -1,0 +1,8 @@
+# Local network settings; create from config.example.
+config.conf
+
+# Editor and OS files.
+.DS_Store
+Thumbs.db
+*.swp
+*~
