@@ -1,0 +1,17 @@
+# Copy this file to config.conf, then edit the values for your LAN.
+# Do not commit config.conf; it is excluded by .gitignore.
+
+# LAN address of the iStoreOS/OpenWrt router.
+ROUTER_LAN_IP="192.168.1.1"
+
+# DHCP-reserved IPv4 address of the China-region Nintendo Switch.
+SWITCH_IP="192.168.1.155"
+
+# Local uHTTPd listener. Keep this different from the router's LuCI HTTP port.
+HTTP_PORT="8081"
+
+# China-region Switch network test hostname.
+TEST_DOMAIN="ctest.cdn.n.nintendoswitch.cn"
+
+# OpenClash custom Hosts file used by this installation.
+OPENCLASH_HOSTS_FILE="/etc/openclash/custom/openclash_custom_hosts.list"
